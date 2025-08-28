@@ -47,7 +47,7 @@
         }
 
         .titulo {
-            color:#eee;
+            color: #eee;
             font-size: 2rem;
         }
 
@@ -60,6 +60,48 @@
         .menu {
             border: .2rem solid yellow;
             width: 15rem;
+            padding: .5rem;
+        }
+
+        .opcao {
+            display: flex;
+            background-color: #ddd;
+            padding: .4rem;
+            border-radius: .5rem;
+        }
+
+        .opcao:hover {
+            background-color: #ccc;
+            color: black;
+            box-shadow: 0rem .2rem .3rem .03rem #e7e7e7;;
+        }
+
+        .opcao:hover .icone-final {
+           opacity: 1;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4a4949;
+        }
+
+
+        .icone-inicial {
+            /* border: .1rem solid red; */
+            width: 1.5rem;
+            margin-right: .3rem;
+        }
+
+        .rotulo {
+            flex: 1;
+        }
+
+        .icone-final {
+            /* border: .1rem solid red; */
+            width: 1.5rem;
+            margin-left: .3rem;
+            opacity: 0;
+            transition: opacity 0.3seg ease;
         }
 
         .principal {
@@ -81,7 +123,19 @@
         <h1 class="titulo">Meu Site</h1>
     </header>
     <div class="container">
-        <nav class="menu">Menu</nav>
+        <nav class="menu">
+            <a href="login.html">
+                <div class="opcao">
+                    <div class="icone-inicial">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    </div>
+                    <div class="rotulo">Sair</div>
+                    <div class="icone-final">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </a>
+        </nav>
         <main class="principal">Conteúdo Principal</main>
     </div>
     <footer id="rodape">&copy; Meu Site</footer>
