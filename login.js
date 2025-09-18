@@ -1,5 +1,5 @@
-const email = "admin@email.com";
-const senha = "admin";
+const email = usuario.email;
+const senha = usuario.senha;
 
 function verificarLogin() {
     const emailInformado = document.getElementById("email").value;
