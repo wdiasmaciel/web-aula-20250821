@@ -32,6 +32,6 @@ const dados = [
         "categoria": ,
         "autor": ,
         "data": ,
-        "imagem": "img/" 
+        "imagem": "img/festival-musica.png" 
     }
 ];
