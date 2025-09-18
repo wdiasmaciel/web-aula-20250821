@@ -6,7 +6,7 @@ const usuario = {
 const dados = [
     {
         "id": 1,
-        "titulo": ,
+        "titulo": "Tranporte Público em Belo Horizonte",
         "descricao": ,
         "conteudo": ,
         "categoria": ,
@@ -16,7 +16,7 @@ const dados = [
     },
     {
         "id": 2,
-        "titulo": ,
+        "titulo": "Tecnologia 6G",
         "descricao": ,
         "conteudo": ,
         "categoria": ,
@@ -26,7 +26,7 @@ const dados = [
     },
     {
         "id": 3,
-        "titulo": ,
+        "titulo": "Festival de Música",
         "descricao": ,
         "conteudo": ,
         "categoria": ,
